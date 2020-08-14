@@ -94,8 +94,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         String radioUrl = "http://ice24.securenetsystems.net/WBGW";
         String audioMp3Url = "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3";
         try {
-            mediaPlayer.setDataSource(radioUrl);
-//            mediaPlayer.setDataSource(audioMp3Url);
+//            mediaPlayer.setDataSource(radioUrl);
+            mediaPlayer.setDataSource(audioMp3Url);
         } catch (IllegalArgumentException | IllegalStateException | IOException e) {
             e.printStackTrace();
         }
